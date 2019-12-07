@@ -1,0 +1,9 @@
+.posts-page-body {
+  width: 75%;
+  min-width: 1000px;
+  margin: 0 auto 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+.post-container {
+  display: inline-block;
+  border: 1px black solid;
+  width: 25%;
+  height: 250px;
+  padding: 20px 10px;
+  margin: 20px 20px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  box-shadow: 5px 10px #888888;
+}
+
+.post-container:hover {
+  background-color: black;
+  color: white;
+}

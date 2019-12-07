@@ -1,0 +1,24 @@
+.inputField {
+  margin: 40px auto;
+}
+
+.inputField label {
+  display: block;
+  margin: 0 auto 10px;
+  font-size: 2rem;
+}
+
+input {
+  width: 500px;
+  font-size: 1rem;
+}
+
+.body-input {
+  width: 80%;
+}
+
+.submit-button {
+  height: 50px;
+  width: 150px;
+  font-size: 2rem;
+}
