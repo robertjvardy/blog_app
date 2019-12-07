@@ -1,8 +1,9 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { deletePostInit, updatePostInit } from "../../../store/rootActions";
 import Button from "../../Button/Button";
+import PageTemplate from "../PageTemplate/PageTemplate";
 import "./Post.css";
 
 const Post = props => {
@@ -80,7 +81,11 @@ const Post = props => {
     );
   };
 
-  return <>{isEditMode ? <EditField post={post} /> : bodyOrSpiner}</>;
+  return (
+    <PageTemplate title="">
+      {isEditMode ? <EditField post={post} /> : bodyOrSpiner}
+    </PageTemplate>
+  );
 };
 
 export default Post;
