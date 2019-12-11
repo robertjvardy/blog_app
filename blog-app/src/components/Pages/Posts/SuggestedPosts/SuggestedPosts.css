@@ -1,0 +1,17 @@
+.suggestions-container {
+  width: 90%;
+  min-width: 1000px;
+  margin: 10px auto 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.post-tile {
+  width: 10%;
+}

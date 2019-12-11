@@ -15,3 +15,7 @@
   background-color: black;
   color: white;
 }
+.post-tile-body {
+  overflow: hidden;
+  height: 30%;
+}

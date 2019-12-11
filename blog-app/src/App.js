@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import "./App.css";
 import Homepage from "./components/Pages/Homepage";
-import ErrorPage from "./components/Pages/ErrorPage";
+import ErrorPage from "./components/Pages/ErrorPage/ErrorPage";
 import PostsPage from "./components/Pages/Posts/PostsPage";
 import AboutPage from "./components/Pages/About/AboutPage";
 import NavBar from "./components/NavBar/NavBar";
 import Post from "./components/Pages/Post/Post";
 import NewPost from "./components/Pages/NewPost/NewPostPage";
 import { fetchPostsInit } from "./store/rootActions";
+import "./App.css";
 
 const App = () => {
   const dispatch = useDispatch();

@@ -12,7 +12,9 @@ const PostTile = props => {
     <div className="post-container" onClick={() => handleClick()}>
       <h3 className="post-title">{title}</h3>
       <h5>By: {author}</h5>
-      <p>{body}</p>
+      <div className="post-tile-body">
+        <p>{body}</p>
+      </div>
     </div>
   );
 };
